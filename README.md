@@ -1,11 +1,15 @@
-# test-containers-101
+# demo-webflux
 
-Programação reativa ceom WebFlux
+Programação reativa com WebFlux e Spring-Boot
+
+
+![web-flux](webflux-demo.png)
 
 ## Required
 
 - Java 21
-
+- Maven
+- Spring-Boot
 
 ## Dependencies
 
@@ -14,9 +18,7 @@ Programação reativa ceom WebFlux
 - postgresql
 - lombok
 
-## Extra dependências
 
-- r2dbc-postgresql
 
 
 ## Aprenda um pouco sobre Programação Reativa  
