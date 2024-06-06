@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  db:
+    image: 'postgres:13'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: p@ssw0rd
+      POSTGRES_DB: alunodb
+    ports:
+      - "5432:5432"

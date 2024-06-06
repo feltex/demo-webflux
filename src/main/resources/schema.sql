@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS aluno
+(
+    id    SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20) NOT NULL,
+    email  VARCHAR(255)  NOT NULL,
+    data_cadastro TIMESTAMP NOT NULL
+);
